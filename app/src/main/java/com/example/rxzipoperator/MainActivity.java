@@ -56,7 +56,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        subscription.unsubscribe();
+
+        if(subscription != null && !subscription.isUnsubscribed()){
+            subscription.unsubscribe();
+        }
     }
 
     public Observable<Customer> getCustomer(){
