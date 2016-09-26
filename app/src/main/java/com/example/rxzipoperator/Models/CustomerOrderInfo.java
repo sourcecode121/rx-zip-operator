@@ -1,4 +1,4 @@
-package com.example.rxzipoperator.Models;
+package com.example.rxzipoperator.models;
 
 /**
  * Created by Anand on 26/09/2016.

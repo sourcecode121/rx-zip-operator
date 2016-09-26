@@ -4,14 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.example.rxzipoperator.Models.Customer;
-import com.example.rxzipoperator.Models.CustomerOrderInfo;
-import com.example.rxzipoperator.Models.Order;
+import com.example.rxzipoperator.models.Customer;
+import com.example.rxzipoperator.models.CustomerOrderInfo;
+import com.example.rxzipoperator.models.Order;
 
 import java.util.UUID;
 
 import rx.Observable;
-import rx.Scheduler;
 import rx.Subscriber;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
